@@ -1,7 +1,11 @@
 ﻿# Prog
 
 
-![image.png](img/image.png)
+<img src="img/3-프로젝트%20홈.gif" alt="프로젝트 홈" style="width:90%"/>
+<!-- ![image.png](img/3-프로젝트%20홈.gif) -->
+<br/>
+<br/>
+<br/>
 
 # 목차
 
@@ -12,40 +16,64 @@
 5. [설계 문서](#5-설계-문서)
 6. [팀원 소개](#6-팀원-소개)
 
----
-
-# 팀구성
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><img src="img/전승열.jpg" width="100px;" alt=""/><br /><sub><b>팀장 : 전승열</b></sub></a><br /></td>
-      <td align="center"><img src="img/민준.jpg" width="100px;" alt=""/><br /><sub><b>BE 리더 : 최민준</b></sub></a><br /></td>
-      <td align="center"><img src="img/최승준 (1).jpg" width="100px;" alt=""/><br /><sub><b>BE 팀원 : 최승준</b></sub></a><br /></td>
-     <tr/>
-      <td align="center"><img src="img/정지원.jpg" width="100px;" alt=""/><br /><sub><b>FE 리더 : 정지원</b></sub></a><br /></td>
-      <td align="center"><img src="img/박은수.jpg" width="100px;" alt=""/><br /><sub><b>부팀장 : 박은수</b></sub></a><br /></td>
-      <td align="center"><img src="img/백진규.jpg" width="100px;" alt=""/><br /><sub><b>FE 팀원 : 백진규</b></sub></a><br /></td>
-    </tr>
-  </tbody>
-</table>
+<br/>
+<br/>
 
 # 1. 개요 
 
 ## 프로젝트를 생성해 팀원을 모집하고 프로젝트를 진행하며 협업을 위한 서비스를 제공한다.
 
-### 프로젝트 생성
-- 프로젝트의 제목, 설명, 프로젝트 기간, 사용 기술스택, 필요한 포지션등을 등록하여 프로젝트를 생성한다
+### 회원가입 및 로그인
+<p float="left">
+  <img src="img/1-회원가입.gif" alt="회원가입" style="width:45%"/>
+  <img src="img/2-로그인.gif" alt="로그인" style="width:45%"/>
+</p>
+<!-- ![회원가입](img/1-회원가입.gif)
+![로그인](img/2-로그인.gif) -->
 
-![image-1.png](img/image-1.png)
+<!-- ### 프로젝트 생성
+- 프로젝트의 제목, 설명, 프로젝트 기간, 사용 기술스택, 필요한 포지션등을 등록하여 프로젝트를 생성한다 -->
+<!-- ![프로젝트 생성](img/image-1.png) -->
 
-### 프로젝트 신청
+### 프로젝트 모집
+<img src="img/4-프로젝트모집.gif" alt="프로젝트 모집" style="width:90%"/>
+<!-- ![프로젝트 모집](img/4-프로젝트모집.gif) -->
+
+### 프로젝트 멤버 승인 및 추방
+<p float="left">
+  <img src="img/5-프로젝트멤버승인.gif" alt="프로젝트 멤버승인" style="width:45%"/>
+  <img src="img/6-멤버추방.gif" alt="멤버추방" style="width:45%"/>
+</p>
+<!-- ![프로젝트 멤버 승인](img/5-프로젝트멤버승인.gif)
+![프로젝트 추방](img/6-멤버추방.gif) -->
+
+### 프로젝트 시작
+<img src="img/7-프로젝트시작.gif" alt="프로젝트 시작" style="width:90%"/>
+<!-- ![프로젝트 생성](img/7-프로젝트시작.gif) -->
+
+### 프로젝트 업무
+<p float="left">
+  <img src="img/8-업무저장.gif" alt="업무생성" style="width:45%"/>
+  <img src="img/9-하위업무추가.gif" alt="하위업무생성" style="width:45%"/>
+</p>
+<!-- ![업무생성](img/8-업무저장.gif)
+![하위업무생성](img/9-하위업무추가.gif) -->
+
+### 회고 및 액션 등록
+<p float="left">
+  <img src="img/10-액션.gif" alt="액션" style="width:45%"/>
+  <img src="img/11-회고.gif" alt="회고" style="width:45%"/>
+</p>
+<!-- ![액션](img/10-액션.gif)
+![회고](img/11-회고.gif) -->
+
+<!-- ### 프로젝트 신청
 - 원하는 프로젝트의 특정 포지션에 지원한다
 - 팀장은 프로젝트 신청 현황을 보고 수락/거절을 할 수있다.
 
-![image-2.png](img/image-2.png)
+![image-2.png](img/image-2.png) -->
 
-### 프로젝트 관리
+<!-- ### 프로젝트 관리
 - 프로젝트 전반적인 진행 사항을 알 수 있다. 
 
 ![image-3.png](img/image-3.png)
@@ -74,7 +102,10 @@
   - 회고
     - KPT 회고 방식으로 한주동안 프로젝트를 진행하며 좋았던점, 아쉬운점, 시도해보고 싶은 점 등을 작성하고 다음주의 액션을 팀장이 설정 할 수 있다.
     
-  ![image-8.png](img/image-8.png)
+  ![image-8.png](img/image-8.png) -->
+
+<br/>
+<br/>
 
 # 2. 개발 환경
 
@@ -141,6 +172,8 @@
 - Project
 	- 멤버, 프로젝트 관리 등 관리자 권한이 필요한 기능을 zustand를 통해 권한을 부여하였다.
 
+<br/>
+<br/>
 
 # 5. 설계 문서
 
@@ -168,6 +201,8 @@
 - Figma
 [피그마 링크](https://www.figma.com/file/YIy0Aw26vEYxUutiqowa2b/Gitit?type=design&node-id=3%3A2&mode=design&t=0aUrRt6N7vSDHLh8-1)
 
+<br/>
+<br/>
 
 # 깃 컨벤션
 ## 브렌치 생성 컨벤션
@@ -193,6 +228,10 @@
     제목 : [BE] Feat : Add security
     본문 : 시큐리티 설정 추가
     ````
+
+<br/>
+<br/>
+    
 # 6. 팀원 소개
 
 | <img src="https://github.com/jsy6265.png" width="100" height="100" alt="전승열" /> | <img src="https://github.com/hitobi1014.png" width="100" height="100" alt="최민준" /> | <img src="https://github.com/smarfy99.png" width="100" height="100" alt="정지원" /> | <img src="https://github.com/Mrrchoi.png" width="100" height="100" alt="최승준" /> | <img src="https://github.com/gardener-soul.png" width="100" height="100" alt="박은수" /> | <img src="https://github.com/qorwlsrb01.png" width="100" height="100" alt="백진규" /> |
